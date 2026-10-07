@@ -63,6 +63,10 @@ também compilam fora do PlatformIO, com `idf.py set-target esp32c6 build`.
 | 10 · Alimentação, Reset e Domínios de Energia | [`motivo-reset-arduino`](capitulo-10/motivo-reset-arduino) | Arduino | todas |
 | 10 · Alimentação, Reset e Domínios de Energia | [`motivo-reset-esp-idf`](capitulo-10/motivo-reset-esp-idf) | ESP-IDF | todas |
 | 11 · Do Reset ao app_main() | [`identidade-esp-idf`](capitulo-11/identidade-esp-idf) | ESP-IDF | todas |
+| 12 · ESP32: o Clássico | [`dac-rampa-esp-idf`](capitulo-12/dac-rampa-esp-idf) | ESP-IDF | ESP32, S2 |
+| 12 · ESP32: o Clássico | [`rampa-arduino`](capitulo-12/rampa-arduino) | Arduino | ESP32 |
+| 12 · ESP32: o Clássico | [`revisao-chip-arduino`](capitulo-12/revisao-chip-arduino) | Arduino | ESP32 |
+| 12 · ESP32: o Clássico | [`revisao-chip-esp-idf`](capitulo-12/revisao-chip-esp-idf) | ESP-IDF | ESP32 |
 
 ## Licença
 
