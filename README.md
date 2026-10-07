@@ -77,6 +77,8 @@ também compilam fora do PlatformIO, com `idf.py set-target esp32c6 build`.
 | 16 · ESP32-C5, ESP32-C6 e ESP32-C61 | [`varredura-wifi6-esp-idf`](capitulo-16/varredura-wifi6-esp-idf) | ESP-IDF | C3, C5, C6, C61 |
 | 17 · ESP32-H2 e ESP32-H4 | [`farol-termometro-arduino`](capitulo-17/farol-termometro-arduino) | Arduino | C6, H2 |
 | 17 · ESP32-H2 e ESP32-H4 | [`ruido-802154-esp-idf`](capitulo-17/ruido-802154-esp-idf) | ESP-IDF | C5, C6, H2 |
+| 18 · ESP32-P4 | [`ethernet-p4-arduino`](capitulo-18/ethernet-p4-arduino) | Arduino | P4 |
+| 18 · ESP32-P4 | [`jpeg-p4-esp-idf`](capitulo-18/jpeg-p4-esp-idf) | ESP-IDF | P4 |
 
 ## Licença
 
