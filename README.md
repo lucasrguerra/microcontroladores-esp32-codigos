@@ -73,6 +73,8 @@ também compilam fora do PlatformIO, com `idf.py set-target esp32c6 build`.
 | 14 · ESP32-S3 e ESP32-S31 | [`quadro-psram-arduino`](capitulo-14/quadro-psram-arduino) | Arduino | ESP32, S3 |
 | 15 · ESP32-C2 e ESP32-C3 | [`despertares-arduino`](capitulo-15/despertares-arduino) | Arduino | C3 |
 | 15 · ESP32-C2 e ESP32-C3 | [`despertares-esp-idf`](capitulo-15/despertares-esp-idf) | ESP-IDF | C2, C3 |
+| 16 · ESP32-C5, ESP32-C6 e ESP32-C61 | [`varredura-arduino`](capitulo-16/varredura-arduino) | Arduino | C5, C6 |
+| 16 · ESP32-C5, ESP32-C6 e ESP32-C61 | [`varredura-wifi6-esp-idf`](capitulo-16/varredura-wifi6-esp-idf) | ESP-IDF | C3, C5, C6, C61 |
 
 ## Licença
 
