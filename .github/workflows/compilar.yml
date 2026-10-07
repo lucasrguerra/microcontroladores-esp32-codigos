@@ -1,0 +1,38 @@
+name: Compilar exemplos
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  listar:
+    runs-on: ubuntu-latest
+    outputs:
+      projetos: ${{ steps.p.outputs.projetos }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: p
+        run: echo "projetos=$(ls -d capitulo-*/*/ | sed 's:/$::' | jq -R . | jq -cs .)" >> "$GITHUB_OUTPUT"
+
+  compilar:
+    needs: listar
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        projeto: ${{ fromJson(needs.listar.outputs.projetos) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/cache@v4
+        with:
+          path: ~/.platformio
+          key: pio-${{ hashFiles('**/platformio.ini') }}
+      - run: pip install "platformio>=6.2"
+      - name: Compilar todas as séries do projeto
+        run: |
+          cd "${{ matrix.projeto }}"
+          pio run $(grep -o '^\[env:[^]]*' platformio.ini | sed 's/\[env:/-e /')
