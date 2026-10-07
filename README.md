@@ -67,6 +67,8 @@ também compilam fora do PlatformIO, com `idf.py set-target esp32c6 build`.
 | 12 · ESP32: o Clássico | [`rampa-arduino`](capitulo-12/rampa-arduino) | Arduino | ESP32 |
 | 12 · ESP32: o Clássico | [`revisao-chip-arduino`](capitulo-12/revisao-chip-arduino) | Arduino | ESP32 |
 | 12 · ESP32: o Clássico | [`revisao-chip-esp-idf`](capitulo-12/revisao-chip-esp-idf) | ESP-IDF | ESP32 |
+| 13 · ESP32-S2 | [`teclado-usb-arduino`](capitulo-13/teclado-usb-arduino) | Arduino | S2, S3 |
+| 13 · ESP32-S2 | [`usb-eco-esp-idf`](capitulo-13/usb-eco-esp-idf) | ESP-IDF | S2, S3 |
 
 ## Licença
 
