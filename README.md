@@ -69,6 +69,10 @@ também compilam fora do PlatformIO, com `idf.py set-target esp32c6 build`.
 | 12 · ESP32: o Clássico | [`revisao-chip-esp-idf`](capitulo-12/revisao-chip-esp-idf) | ESP-IDF | ESP32 |
 | 13 · ESP32-S2 | [`teclado-usb-arduino`](capitulo-13/teclado-usb-arduino) | Arduino | S2, S3 |
 | 13 · ESP32-S2 | [`usb-eco-esp-idf`](capitulo-13/usb-eco-esp-idf) | ESP-IDF | S2, S3 |
+| 14 · ESP32-S3 e ESP32-S31 | [`dsp-vetor-esp-idf`](capitulo-14/dsp-vetor-esp-idf) | ESP-IDF | ESP32, S3, C3 |
+| 14 · ESP32-S3 e ESP32-S31 | [`quadro-psram-arduino`](capitulo-14/quadro-psram-arduino) | Arduino | ESP32, S3 |
+| 15 · ESP32-C2 e ESP32-C3 | [`despertares-arduino`](capitulo-15/despertares-arduino) | Arduino | C3 |
+| 15 · ESP32-C2 e ESP32-C3 | [`despertares-esp-idf`](capitulo-15/despertares-esp-idf) | ESP-IDF | C2, C3 |
 
 ## Licença
 
