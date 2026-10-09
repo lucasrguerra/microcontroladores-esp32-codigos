@@ -172,6 +172,15 @@ também compilam fora do PlatformIO, com `idf.py set-target esp32c6 build`.
 | 56 · Protocolos de Aplicação | [`cliente-https-esp-idf`](capitulo-56/cliente-https-esp-idf) | ESP-IDF | ESP32, S3, C3, C6 |
 | 56 · Protocolos de Aplicação | [`mqtt-eco-esp-idf`](capitulo-56/mqtt-eco-esp-idf) | ESP-IDF | ESP32, S3, C3, C6 |
 | 56 · Protocolos de Aplicação | [`servidor-hora-arduino`](capitulo-56/servidor-hora-arduino) | Arduino | ESP32, S3, C3, C6 |
+| 57 · Modos de Energia | [`modos-sono-arduino`](capitulo-57/modos-sono-arduino) | Arduino | ESP32, S3, C3, C6 |
+| 57 · Modos de Energia | [`modos-sono-esp-idf`](capitulo-57/modos-sono-esp-idf) | ESP-IDF | ESP32, S3, C3, C6 |
+| 58 · Fontes de Despertar e Retenção | [`botao-light-sleep-arduino`](capitulo-58/botao-light-sleep-arduino) | Arduino | ESP32, S3, C3, C6 |
+| 58 · Fontes de Despertar e Retenção | [`desperta-pino-esp-idf`](capitulo-58/desperta-pino-esp-idf) | ESP-IDF | ESP32, S3, C3, C6 |
+| 59 · Gerenciamento Automático de Energia | [`economia-wi-fi-arduino`](capitulo-59/economia-wi-fi-arduino) | Arduino | ESP32, S3, C3, C6 |
+| 59 · Gerenciamento Automático de Energia | [`wifi-economia-esp-idf`](capitulo-59/wifi-economia-esp-idf) | ESP-IDF | ESP32, S3, C3, C6 |
+| 60 · Medindo e Projetando para Bateria | [`autonomia-esp-idf`](capitulo-60/autonomia-esp-idf) | ESP-IDF | todas |
+| 60 · Medindo e Projetando para Bateria | [`no-bateria-esp-idf`](capitulo-60/no-bateria-esp-idf) | ESP-IDF | ESP32, S3, C3, C6 |
+| 60 · Medindo e Projetando para Bateria | [`sensor-bateria-arduino`](capitulo-60/sensor-bateria-arduino) | Arduino | ESP32, S3, C3, C6 |
 
 ## Licença
 
