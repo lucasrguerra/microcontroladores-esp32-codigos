@@ -154,6 +154,24 @@ também compilam fora do PlatformIO, com `idf.py set-target esp32c6 build`.
 | 48 · Componentes e Component Manager | [`misto-esp-idf`](capitulo-48/misto-esp-idf) | ESP-IDF | ESP32, S3, C3 |
 | 49 · Wi-Fi: Fundamentos e Modo Estação | [`estacao-esp-idf`](capitulo-49/estacao-esp-idf) | ESP-IDF | ESP32, S3, C3, C6 |
 | 49 · Wi-Fi: Fundamentos e Modo Estação | [`estacao-wi-fi-arduino`](capitulo-49/estacao-wi-fi-arduino) | Arduino | ESP32, S3, C3, C6 |
+| 50 · Wi-Fi Avançado | [`ap-sta-esp-idf`](capitulo-50/ap-sta-esp-idf) | ESP-IDF | ESP32, S3, C3, C6 |
+| 50 · Wi-Fi Avançado | [`farejador-esp-idf`](capitulo-50/farejador-esp-idf) | ESP-IDF | ESP32, S3, C3, C6 |
+| 50 · Wi-Fi Avançado | [`ponto-acesso-arduino`](capitulo-50/ponto-acesso-arduino) | Arduino | ESP32, S3, C3, C6 |
+| 50 · Wi-Fi Avançado | [`provisionamento-arduino`](capitulo-50/provisionamento-arduino) | Arduino | ESP32, S3, C3, C6 |
+| 51 · Bluetooth: Classic e Low Energy | [`observador-esp-idf`](capitulo-51/observador-esp-idf) | ESP-IDF | ESP32, S3, C3, C6 |
+| 51 · Bluetooth: Classic e Low Energy | [`serial-bluetooth-arduino`](capitulo-51/serial-bluetooth-arduino) | Arduino | ESP32 |
+| 51 · Bluetooth: Classic e Low Energy | [`servidor-ble-arduino`](capitulo-51/servidor-ble-arduino) | Arduino | ESP32, S3, C3, C6 |
+| 52 · BLE na Prática | [`cliente-ble-arduino`](capitulo-52/cliente-ble-arduino) | Arduino | ESP32, S3, C3, C6 |
+| 52 · BLE na Prática | [`gatt-nimble-esp-idf`](capitulo-52/gatt-nimble-esp-idf) | ESP-IDF | ESP32, S3, C3, C6 |
+| 53 · ESP-NOW | [`esp-now-difusao-arduino`](capitulo-53/esp-now-difusao-arduino) | Arduino | ESP32, S3, C3, C6 |
+| 53 · ESP-NOW | [`espnow-par-esp-idf`](capitulo-53/espnow-par-esp-idf) | ESP-IDF | ESP32, S3, C3, C6 |
+| 54 · Thread, Zigbee e Matter | [`no-thread-esp-idf`](capitulo-54/no-thread-esp-idf) | ESP-IDF | C5, C6, H2 |
+| 54 · Thread, Zigbee e Matter | [`sensor-zigbee-arduino`](capitulo-54/sensor-zigbee-arduino) | Arduino | C6, H2 |
+| 55 · Ethernet | [`eth-dhcp-esp-idf`](capitulo-55/eth-dhcp-esp-idf) | ESP-IDF | ESP32, P4 |
+| 55 · Ethernet | [`ethernet-w5500-arduino`](capitulo-55/ethernet-w5500-arduino) | Arduino | ESP32, S3, C3, C6 |
+| 56 · Protocolos de Aplicação | [`cliente-https-esp-idf`](capitulo-56/cliente-https-esp-idf) | ESP-IDF | ESP32, S3, C3, C6 |
+| 56 · Protocolos de Aplicação | [`mqtt-eco-esp-idf`](capitulo-56/mqtt-eco-esp-idf) | ESP-IDF | ESP32, S3, C3, C6 |
+| 56 · Protocolos de Aplicação | [`servidor-hora-arduino`](capitulo-56/servidor-hora-arduino) | Arduino | ESP32, S3, C3, C6 |
 
 ## Licença
 

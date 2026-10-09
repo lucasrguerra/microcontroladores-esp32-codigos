@@ -1,0 +1,8 @@
+dependencies:
+  idf: ">=5.5"
+  protocol_examples_common:
+    path: ${IDF_PATH}/examples/common_components/protocol_examples_common
+  espressif/mqtt:
+    version: "^1.0.0"
+    rules:
+      - if: "idf_version >=6.0"       # no v5.5, o MQTT ainda vem no ESP-IDF

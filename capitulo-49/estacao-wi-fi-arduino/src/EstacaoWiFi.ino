@@ -33,7 +33,8 @@ void loop() {
   if (millis() - ultimo >= 10000) {
     ultimo = millis();
     if (WiFi.isConnected()) {
-      Serial.printf("conectado há %lu s, RSSI %d dBm\n", millis() / 1000, WiFi.RSSI());
+      Serial.printf("conectado há %lu s, RSSI %d dBm\n",
+                    millis() / 1000, WiFi.RSSI());
     } else {
       Serial.println("sem conexão");
     }
