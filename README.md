@@ -152,6 +152,8 @@ também compilam fora do PlatformIO, com `idf.py set-target esp32c6 build`.
 | 48 · Componentes e Component Manager | [`config-json-esp-idf`](capitulo-48/config-json-esp-idf) | ESP-IDF | ESP32, S3, C3, C6 |
 | 48 · Componentes e Component Manager | [`media-movel-esp-idf`](capitulo-48/media-movel-esp-idf) | ESP-IDF | ESP32, S3, C3, C6 |
 | 48 · Componentes e Component Manager | [`misto-esp-idf`](capitulo-48/misto-esp-idf) | ESP-IDF | ESP32, S3, C3 |
+| 49 · Wi-Fi: Fundamentos e Modo Estação | [`estacao-esp-idf`](capitulo-49/estacao-esp-idf) | ESP-IDF | ESP32, S3, C3, C6 |
+| 49 · Wi-Fi: Fundamentos e Modo Estação | [`estacao-wi-fi-arduino`](capitulo-49/estacao-wi-fi-arduino) | Arduino | ESP32, S3, C3, C6 |
 
 ## Licença
 

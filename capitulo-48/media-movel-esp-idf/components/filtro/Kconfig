@@ -1,0 +1,11 @@
+menu "Filtro de média móvel"
+
+    config FILTRO_JANELA
+        int "Tamanho da janela (amostras)"
+        range 2 64
+        default 8
+        help
+            Quantas amostras entram na média. Janelas maiores suavizam mais
+            e respondem mais devagar.
+
+endmenu
