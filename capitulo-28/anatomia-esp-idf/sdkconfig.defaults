@@ -1,0 +1,3 @@
+# Valores iniciais do projeto; o sdkconfig é gerado a partir deles.
+CONFIG_ANATOMIA_PERIODO_MS=250
+CONFIG_FREERTOS_HZ=1000

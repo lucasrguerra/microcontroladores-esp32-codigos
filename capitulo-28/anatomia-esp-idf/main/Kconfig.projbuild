@@ -1,0 +1,15 @@
+menu "Anatomia (exemplo do livro)"
+
+    config ANATOMIA_GPIO_LED
+        int "GPIO do LED"
+        range 0 54
+        default 2
+        help
+            Pino em que o LED está ligado. Confira no esquema da placa.
+
+    config ANATOMIA_PERIODO_MS
+        int "Meio período do pisca (ms)"
+        range 50 5000
+        default 500
+
+endmenu

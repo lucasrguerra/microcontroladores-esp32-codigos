@@ -21,7 +21,7 @@ void app_main(void)
            (chip.features & CHIP_FEATURE_IEEE802154) ? " 802.15.4"   : "");
 
     uint32_t flash = 0;
-    esp_flash_get_size(NULL, &flash);
+    esp_flash_get_physical_size(NULL, &flash);
     printf("Flash:              %" PRIu32 " MB (%s)\n", flash / (1024 * 1024),
            (chip.features & CHIP_FEATURE_EMB_FLASH) ? "embutida" : "externa");
     printf("PSRAM:              %u KB\n",

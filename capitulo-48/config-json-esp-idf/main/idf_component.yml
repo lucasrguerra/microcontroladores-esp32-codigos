@@ -1,0 +1,6 @@
+dependencies:
+  idf: ">=5.5"
+  espressif/cjson:
+    version: "^1.7.19"
+    rules:
+      - if: "idf_version >=6.0"       # no v5.5, o json ainda vem no ESP-IDF

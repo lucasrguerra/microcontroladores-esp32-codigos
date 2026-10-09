@@ -1,0 +1,17 @@
+menu "Pane (exemplo do livro)"
+
+    choice PANE_TIPO
+        prompt "Falha a provocar"
+        default PANE_PONTEIRO_NULO
+
+        config PANE_PONTEIRO_NULO
+            bool "Escrita por ponteiro nulo"
+        config PANE_ESTOURO_PILHA
+            bool "Estouro de pilha de uma tarefa"
+        config PANE_WATCHDOG
+            bool "Tarefa presa sem ceder a CPU"
+        config PANE_ERROR_CHECK
+            bool "ESP_ERROR_CHECK com erro"
+    endchoice
+
+endmenu
