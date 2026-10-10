@@ -181,6 +181,27 @@ também compilam fora do PlatformIO, com `idf.py set-target esp32c6 build`.
 | 60 · Medindo e Projetando para Bateria | [`autonomia-esp-idf`](capitulo-60/autonomia-esp-idf) | ESP-IDF | todas |
 | 60 · Medindo e Projetando para Bateria | [`no-bateria-esp-idf`](capitulo-60/no-bateria-esp-idf) | ESP-IDF | ESP32, S3, C3, C6 |
 | 60 · Medindo e Projetando para Bateria | [`sensor-bateria-arduino`](capitulo-60/sensor-bateria-arduino) | Arduino | ESP32, S3, C3, C6 |
+| 61 · Segurança no ESP32 | [`cripto-hw-esp-idf`](capitulo-61/cripto-hw-esp-idf) | ESP-IDF | ESP32, S3, C2, C3, C6, H2, P4 |
+| 61 · Segurança no ESP32 | [`sorteio-seguro-arduino`](capitulo-61/sorteio-seguro-arduino) | Arduino | ESP32, S3, C3, C6 |
+| 62 · eFuses | [`efuse-serie-esp-idf`](capitulo-62/efuse-serie-esp-idf) | ESP-IDF | S3, C3, C5, C6, H2, P4 |
+| 62 · eFuses | [`identidade-efuse-arduino`](capitulo-62/identidade-efuse-arduino) | Arduino | ESP32, S3, C3, C6 |
+| 63 · Secure Boot | [`boot-assinado-esp-idf`](capitulo-63/boot-assinado-esp-idf) | ESP-IDF | ESP32, S3, C2, C3, C5, C6, H2, P4 |
+| 64 · Criptografia da Flash e da NVS | [`flash-cifrada-esp-idf`](capitulo-64/flash-cifrada-esp-idf) | ESP-IDF | ESP32, S3, C2, C3, C5, C6, H2, P4 |
+| 66 · Atualização OTA | [`ota-eco-esp-idf`](capitulo-66/ota-eco-esp-idf) | ESP-IDF | ESP32, S3, C3, C6 |
+| 67 · Da Bancada à Fábrica | [`dados-fabrica-esp-idf`](capitulo-67/dados-fabrica-esp-idf) | ESP-IDF | ESP32, S3, C2, C3, C6, H2, P4 |
+| 68 · Displays e Interfaces Gráficas | [`barras-lcd-arduino`](capitulo-68/barras-lcd-arduino) | Arduino | ESP32, S3, C3, C6 |
+| 68 · Displays e Interfaces Gráficas | [`painel-lvgl-esp-idf`](capitulo-68/painel-lvgl-esp-idf) | ESP-IDF | ESP32, S3, C3 |
+| 69 · Câmera e Vídeo | [`foto-web-arduino`](capitulo-69/foto-web-arduino) | Arduino | ESP32, S3 |
+| 69 · Câmera e Vídeo | [`jpeg-quadro-esp-idf`](capitulo-69/jpeg-quadro-esp-idf) | ESP-IDF | ESP32, S3, C3, C6 |
+| 70 · Áudio | [`audio-codecs-esp-idf`](capitulo-70/audio-codecs-esp-idf) | ESP-IDF | ESP32, S3, C3, C6 |
+| 70 · Áudio | [`gravador-wav-arduino`](capitulo-70/gravador-wav-arduino) | Arduino | ESP32, S3, C3, C6 |
+| 71 · IA na Borda | [`tflm-seno-esp-idf`](capitulo-71/tflm-seno-esp-idf) | ESP-IDF | ESP32, S3, C3, C6 |
+| 72 · DSP e Processamento de Sinais | [`espectro-mic-arduino`](capitulo-72/espectro-mic-arduino) | Arduino | ESP32, S3, C3, C6 |
+| 72 · DSP e Processamento de Sinais | [`fft-filtro-esp-idf`](capitulo-72/fft-filtro-esp-idf) | ESP-IDF | ESP32, S3, C3, C6 |
+| 73 · USB Device e Host | [`leitor-barras-arduino`](capitulo-73/leitor-barras-arduino) | Arduino | S2, S3, P4 |
+| 73 · USB Device e Host | [`usb-pendrive-esp-idf`](capitulo-73/usb-pendrive-esp-idf) | ESP-IDF | S2, S3, P4 |
+| 78 · Comparativo Final de Frameworks | [`linha-base-esp-idf`](capitulo-78/linha-base-esp-idf) | ESP-IDF | ESP32, S3, C3, C6 |
+| 78 · Comparativo Final de Frameworks | [`soma-base-arduino`](capitulo-78/soma-base-arduino) | Arduino | ESP32, S3, C3, C6 |
 
 ## Licença
 

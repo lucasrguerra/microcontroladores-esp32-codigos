@@ -1,0 +1,7 @@
+# Secure Boot V2. O build não assina: a assinatura é feita à parte, com a chave
+# guardada fora da máquina de compilação (espsecure sign-data).
+CONFIG_SECURE_BOOT=y
+CONFIG_SECURE_BOOT_V2_ENABLED=y
+CONFIG_SECURE_BOOT_BUILD_SIGNED_BINARIES=n
+CONFIG_ESP32_REV_MIN_3=y
+CONFIG_PARTITION_TABLE_OFFSET=0xC000

@@ -1,0 +1,30 @@
+menu "Painel do exemplo"
+    choice PAINEL
+        prompt "Painel"
+        default PAINEL_ST7789
+        config PAINEL_ST7789
+            bool "ST7789 240x320 por SPI"
+        config PAINEL_QEMU
+            bool "Painel RGB virtual do QEMU"
+    endchoice
+    config PINO_SCLK
+        int "SCLK"
+        default 18 if IDF_TARGET_ESP32
+        default 6
+    config PINO_MOSI
+        int "MOSI"
+        default 23 if IDF_TARGET_ESP32
+        default 7
+    config PINO_CS
+        int "CS"
+        default 5 if IDF_TARGET_ESP32
+        default 10
+    config PINO_DC
+        int "DC"
+        default 16 if IDF_TARGET_ESP32
+        default 4
+    config PINO_RST
+        int "RST"
+        default 17 if IDF_TARGET_ESP32
+        default 5
+endmenu

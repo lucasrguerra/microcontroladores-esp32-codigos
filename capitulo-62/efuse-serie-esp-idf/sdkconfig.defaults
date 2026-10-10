@@ -1,0 +1,7 @@
+# eFuses virtuais guardados na partição efuse_em: nada é queimado de verdade.
+CONFIG_EFUSE_VIRTUAL=y
+CONFIG_EFUSE_VIRTUAL_KEEP_IN_FLASH=y
+CONFIG_PARTITION_TABLE_CUSTOM=y
+CONFIG_PARTITION_TABLE_CUSTOM_FILENAME="partitions.csv"
+# o bootloader cresce com os eFuses virtuais: no P4 ele passa de 24 KB
+CONFIG_PARTITION_TABLE_OFFSET=0x9000

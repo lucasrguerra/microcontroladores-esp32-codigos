@@ -1,0 +1,5 @@
+menu "Exemplo OTA"
+    config OTA_URL
+        string "Endereço do firmware novo"
+        default "https://exemplo.com.br/firmware/ota_eco.bin"
+endmenu

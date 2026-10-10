@@ -7,7 +7,7 @@ on:
 
 jobs:
   listar:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04   # rótulo fixo: evita a migração automática do ubuntu-latest
     outputs:
       projetos: ${{ steps.p.outputs.projetos }}
     steps:
@@ -17,7 +17,7 @@ jobs:
 
   compilar:
     needs: listar
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04   # rótulo fixo: evita a migração automática do ubuntu-latest
     strategy:
       fail-fast: false
       matrix:

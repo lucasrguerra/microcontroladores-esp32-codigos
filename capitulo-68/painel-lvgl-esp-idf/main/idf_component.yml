@@ -1,0 +1,6 @@
+dependencies:
+  lvgl/lvgl: "~9.2.0"
+  espressif/esp_lcd_qemu_rgb:
+    version: "^1"
+    rules:                        # o painel virtual só existe nestes alvos do QEMU
+      - if: "target in [esp32, esp32s3, esp32c3]"
